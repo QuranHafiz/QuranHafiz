@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB_Creation", "DB_Creation", "{2392C83C-BFB6-4D5C-90D0-657F4BE975DD}"
+	ProjectSection(SolutionItems) = preProject
+		DBCreation\CreateQuranDB.sql = DBCreation\CreateQuranDB.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5673B38-B2B7-4958-B551-870B3CEDB81D}"
+	ProjectSection(SolutionItems) = preProject
+		Backup and restore.sql = Backup and restore.sql
+		CreateSimilarityTables.sql = CreateSimilarityTables.sql
+		Quran Queries.sql = Quran Queries.sql
+		Similarity Queries.sql = Similarity Queries.sql
+		SimilarityFunctions.sql = SimilarityFunctions.sql
+		stored proc get ayah similaroty.sql = stored proc get ayah similaroty.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
