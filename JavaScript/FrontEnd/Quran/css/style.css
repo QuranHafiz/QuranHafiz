@@ -1,0 +1,75 @@
+
+body {
+    direction: rtl;
+}
+
+#wrapper {
+    width: 960px;
+    margin:auto;
+}
+
+#control {
+    text-align: center;
+    background: silver;
+}
+
+#wrapper2 {
+    position: relative;
+}
+
+#suras {
+    position: absolute;
+    top:15px;
+    width:200px;
+    height:430px;
+    overflow:auto;
+}
+#suras .active {
+    background:navy;
+    color:white;
+}
+#suras .active a {
+    color:white;
+}
+
+
+#page {
+    position: absolute;
+    top:15px;
+    right:220px;
+    height:430px;
+    width:290px;
+    margin:0;
+    padding:0;
+}
+#page a:hover div {
+    background:yellow;
+    opacity:.2; filter:alpha(opacity=25);
+}
+#page a.active div {
+    background:blue;
+    opacity:.2; filter:alpha(opacity=25);
+}
+
+#page div {
+    position:absolute;
+}
+
+#tafseer {
+    position: absolute;
+    top:15px;
+    right:520px;
+    height:430px;
+    width:290px;
+    background: #f8f8f8;
+    overflow:auto;
+}
+#sliders{
+	position:absolute;
+	    top:15px;
+    right:820px;
+    height:430px;
+    width:100%;
+    overflow:auto;
+
+}

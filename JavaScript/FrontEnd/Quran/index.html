@@ -1,0 +1,78 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/rangeslider.css"/>
+<title>القرآن الكريم</title>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<h1>القرآن الكريم</h1>
+
+<div id="control">
+<a href="" class="page-change" data-offset="-100"> &lt;&lt;&lt; </a>&nbsp;
+<a href="" class="page-change" data-offset="-10"> &lt;&lt; </a>&nbsp;
+<a href="" class="page-change" data-offset="-1"> &lt; </a>&nbsp;
+<span id="page_num"></span>&nbsp;
+<a href="" class="page-change" data-offset="1"> &gt; </a>&nbsp;
+<a href="" class="page-change" data-offset="10"> &gt;&gt; </a>&nbsp;
+<a href="" class="page-change" data-offset="100"> &gt;&gt;&gt; </a>&nbsp;
+</div>
+
+
+<div id="wrapper2">
+<div id="suras">
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>اسم</th>
+                <th>صفحة</th>
+                <th>عدد الآيات</th>
+        </thead>
+        <tbody>
+            <tr><td>Loading ...</td></tr>
+        </tbody>
+    </table>
+</div><!-- suras -->
+
+
+<div id="page">
+Loading ...
+</div><!-- page -->
+
+<div id="tafseer">
+Loading ...
+</div><!-- tafseer -->
+<div id="sliders"> 
+ PercentageOfMatchingWordsInSentence1 <input id="sent1_perc" type="range" min="0" max="100" step="5" value="50"/><output id= "sent1_output"></output>
+<br/>
+PercentageOfMatchingWordsInSentence2 <input id="sent2_perc" type="range" min="0" max="100" step="5" value="50"/><output id="sent2_output"></output>
+<br/>
+Connectedness1 <input id="connect1" type="range" min="0" max="100" step="5" value="50"/><output id="connect1_output"></output>
+<br/>
+Connectedness2 <input  id = "connect2" type="range" min="0" max="100" step="5" value="50"/><output id="connect2_output"> </output>
+<br/>
+DegreeOfOrderness <input id="orderness" type="range" min="0" max="100" step="5" value="50"/><output id= "orderness_output"></output>
+<br/>
+
+
+
+ </div>
+
+</div><!-- wrapper2 -->
+
+</div><!-- wrapper -->
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<!--<script src="js/jquery.hotkey.js"></script>-->
+<script src="js/quran.js"></script>
+<!--<script src="js/rangeslider.min.js"></script>-->
+
+
+</body>
+</html>
